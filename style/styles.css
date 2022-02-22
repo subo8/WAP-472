@@ -1,0 +1,75 @@
+body {
+    background-color: rgb(206, 212, 200)
+}
+
+.card {
+    background-color: #fff;
+    width: 500px;
+    border-radius: 33px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    padding: 2rem !important
+}
+
+.top-container {
+    display: flex;
+    align-items: center
+}
+
+.profile-image {
+    border-radius: 10px;
+    border: 2px solid #099909
+}
+
+.profile-text {
+    margin-left: 30px;
+}
+
+.name {
+    font-size: 25px;
+    font-weight: bold;
+    color: #272727;
+    position: relative;
+    top: 8px
+}
+
+.mail {
+    font-size: 20px;
+    color: grey;
+    position: relative;
+    top: 2px
+}
+
+.round-div {
+    border-radius: 50%;
+    width: 35px;
+    height: 35px;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center
+}
+
+.assign-border {
+    /* border-left: 2px solid #5957f9; */
+    border-left: 2px solid #099909;
+    display: flex;
+    align-items: center
+}
+
+.assignments{
+    font-size: 16px;
+    font-weight: 700;
+    color: #099909;
+    margin-left: 2px
+}
+
+.listItems {
+    font-size: 15px;
+    font-weight: 400;
+    color: #272727
+}
+
+.validatorBar {
+    text-align: right;
+}
