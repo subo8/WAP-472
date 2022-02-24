@@ -13,7 +13,7 @@ body {
 }
 
 .firstHeader {
-    background-color: #F0F0F0;
+    /* background-color: #F0F0F0; */
     color: #A4A400;
     font-family: 'Lucida Sans Unicode', 'Helvetica', 'Arial', 'sans-serif';
     text-decoration: underline;
@@ -21,6 +21,11 @@ body {
     font-size: 22pt;
     margin-bottom: 15px;
 }
+
+.onlyTextColor {
+    background-color: #F0F0F0;
+}
+
 .firstText {
     color: #404040;
     font-size: 11pt;
@@ -28,7 +33,7 @@ body {
 }
 
 .belowHeaders {
-    background-color: #F0F0F0;
+    /* background-color: #F0F0F0; */
     color:#A4A400;
     font-family: 'Lucida Sans Unicode', 'Helvetica', 'Arial', 'sans-serif';
     text-decoration: underline;
