@@ -1,0 +1,66 @@
+body {
+    background: white;
+}
+
+.containerWidth {
+    width: 1024px;
+}
+
+.headerClass {
+    margin-top:20px;
+    text-align: center;
+}
+
+.firstHeader {
+    background-color: #F0F0F0;
+    color: #A4A400;
+    font-family: 'Lucida Sans Unicode', 'Helvetica', 'Arial', 'sans-serif';
+    text-decoration: underline;
+    /* font-weight: bold; */
+    font-size: 22pt;
+    margin-bottom: 15px;
+}
+.firstText {
+    color: #404040;
+    font-size: 11pt;
+    font-family: Georgia, Garamond, serif;
+}
+
+.ingredientHeader {
+
+}
+
+.belowHeaders {
+    background-color: #F0F0F0;
+    color:#A4A400;
+    font-family: 'Lucida Sans Unicode', 'Helvetica', 'Arial', 'sans-serif';
+    text-decoration: underline;
+    font-size: 18pt;
+    font-weight:lighter;
+}
+
+.ingredientList {
+    padding-top: 10px;
+}
+.directionList {
+    padding-top: 10px;
+}
+.userComments {
+    margin-top: 20px;
+    margin-left:30px;
+    margin-right:30px;
+}
+
+.userComments p {
+    background-color:#FFFFA8;
+    font-style: italic;
+}
+
+.linksSection a {
+    color: #A4A400;
+    font-size: 18pt;
+}
+
+.linksHeader {
+    margin-bottom: 15px;
+}
