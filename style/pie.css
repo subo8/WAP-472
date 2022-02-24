@@ -26,10 +26,6 @@ body {
     font-family: Georgia, Garamond, serif;
 }
 
-.ingredientHeader {
-
-}
-
 .belowHeaders {
     background-color: #F0F0F0;
     color:#A4A400;
@@ -63,4 +59,8 @@ body {
 
 .linksHeader {
     margin-bottom: 15px;
+}
+
+.validator {
+    margin-bottom: 20px;
 }
