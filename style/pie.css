@@ -1,5 +1,6 @@
 body {
     background: white;
+    background-image:url("../images/pie/silverware.jpg");
 }
 
 .containerWidth {
@@ -38,6 +39,11 @@ body {
 .ingredientList {
     padding-top: 10px;
 }
+
+.ingredientList li {
+    list-style-image: url("../images/pie/pie_bullet.png");
+}
+
 .directionList {
     padding-top: 10px;
 }
