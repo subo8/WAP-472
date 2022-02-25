@@ -73,3 +73,7 @@ body {
 .validatorBar {
     text-align: right;
 }
+
+.moods {
+    display: flex;
+}
