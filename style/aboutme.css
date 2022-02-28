@@ -9,6 +9,7 @@ h1, h3, h4 {
 }
 
 .container {
+    overflow: auto;
     background-color: #fff;
     /* border-radius: 15px; */
     border-bottom-left-radius: 15px;
@@ -41,8 +42,9 @@ section div p b {
     text-decoration: underline;
 }
 
-.validator {
-    text-align: right;
+.validator a{
+    float: right;
+    text-decoration: none;
 }
 
 div ol li a {

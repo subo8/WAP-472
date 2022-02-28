@@ -5,6 +5,7 @@ body {
 
 .containerWidth {
     width: 1024px;
+    overflow: auto;
 }
 
 .headerClass {
@@ -72,6 +73,6 @@ body {
     margin-bottom: 15px;
 }
 
-.validator {
-    margin-bottom: 20px;
+.validator a {
+    text-decoration: none;
 }

@@ -70,8 +70,9 @@ body {
     color: #272727
 }
 
-.validatorBar {
-    text-align: right;
+.validatorBar a {
+    float: right;
+    text-decoration: none;
 }
 
 .moods {
