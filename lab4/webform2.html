@@ -29,9 +29,9 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav mr-auto">
                 <li class="nav-item active">
-                    <a class="nav-link" href="#" style="color: white;">Products</span></a>
+                    <a class="nav-link" href="#" style="color: white;">Products</a>
                 </li>
-                <span class="right-border"></span>
+                <li class="right-border"></li>
                 <li class="nav-item">
                     <a class="nav-link" href="#" style="color: white;">Suppliers</a>
                 </li>
@@ -43,57 +43,55 @@
         </form>
     </nav>
     <div class="container">
-        <form>
-            <fieldset>
-                <legend>New Product Form</legend>
-                <form>
-                    <div class="form-row">
-                        <div class="form-group col-md-6">
-                            <label for="inputEmail4">Product Number</label>
-                            <input type="text" class="form-control" id="inputEmail4">
-                        </div>
-                        <div class="form-group col-md-6">
-                            <label for="inputPassword4">Quantity in stock</label>
-                            <input type="text" class="form-control" id="inputPassword4" value=0>
+        <fieldset>
+            <legend>New Product Form</legend>
+            <form>
+                <div class="form-row">
+                    <div class="form-group col-md-6">
+                        <label for="prodNumber">Product Number</label>
+                        <input type="text" class="form-control" id="prodNumber">
+                    </div>
+                    <div class="form-group col-md-6">
+                        <label for="quantity">Quantity in stock</label>
+                        <input type="text" class="form-control" id="quantity" value=0>
+                    </div>
+                </div>
+                <div class="form-row">
+                    <div class="form-group col-md-6">
+                        <label for="inputCity">Name</label>
+                        <input type="text" class="form-control" id="inputCity">
+                    </div>
+                    <div class="form-group col-md-6">
+                        <label for="inputState">Supplier</label>
+                        <select id="inputState" class="form-control">
+                            <option selected>Select a supplier</option>
+                            <option>Supplier1</option>
+                            <option>Supplier2</option>
+                            <option>Supplier3</option>
+                            <option>Supplier4</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="form-row">
+                    <div class="form-group col-md-6">
+                        <label for="unitPrice">Unit Price</label>
+                        <input type="text" class="form-control" id="unitPrice" value="0.0">
+                    </div>
+                    <div class="form-group col-md-6">
+                        <label for="dateInput">Date supplied</label>
+                        <input type="date" class="form-control" id="dateInput">
+                        <div class="invalid-date">
+                            Enter a valid Date.
                         </div>
                     </div>
-                    <div class="form-row">
-                        <div class="form-group col-md-6">
-                            <label for="inputCity">Name</label>
-                            <input type="text" class="form-control" id="inputCity">
-                        </div>
-                        <div class="form-group col-md-6">
-                            <label for="inputState">Supplier</label>
-                            <select id="inputState" class="form-control">
-                                <option selected>Select a supplier</option>
-                                <option>Supplier1</option>
-                                <option>Supplier2</option>
-                                <option>Supplier3</option>
-                                <option>Supplier4</option>
-                            </select>
-                        </div>
-                    </div>
-                    <div class="form-row">
-                        <div class="form-group col-md-6">
-                            <label for="inputEmail4">Unit Price</label>
-                            <input type="text" class="form-control" id="inputEmail4" value="0.0">
-                        </div>
-                        <div class="form-group col-md-6">
-                            <label for="inputPassword4">Date supplied</label>
-                            <input type="date" class="form-control" id="inputPassword4">
-                            <div class="invalid-date">
-                                Enter a valid Date.
-                            </div>
-                        </div>
-                    </div>
-                    <div class="footer-button">
-                        <button type="reset" class="btn btn-outline-primary">Reset</button>
-                        <button type="submit" class="btn btn-outline-warning">Cancel</button>
-                        <button type="submit" class="btn btn-outline-info">Add Product</button>
-                    </div>
-                </form>
-            </fieldset>
-        </form>
+                </div>
+                <div class="footer-button">
+                    <button type="reset" class="btn btn-outline-primary">Reset</button>
+                    <button type="submit" class="btn btn-outline-warning">Cancel</button>
+                    <button type="submit" class="btn btn-outline-info">Add Product</button>
+                </div>
+            </form>
+        </fieldset>
         <div class="validator">
             <a href="http://validator.w3.org/check?uri=referer"
                 onclick="this.href='https://validator.w3.org/check?uri=' + document.URL">
