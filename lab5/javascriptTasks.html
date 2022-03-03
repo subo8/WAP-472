@@ -81,7 +81,7 @@ isVowel("u");</code></pre>
             <pre>
             <code>function sum(arr) {
     let result = 0;
-    for (let i = 0; i < arr.length; i++) {
+    for (let i = 0; i &lt arr.length; i++) {
         result += arr[i];
     }
     return result;
@@ -92,7 +92,7 @@ sum([1, 2, 3, 4]);</code></pre>
             <code>function multiply(arr) {
     let result = 1;
     let i = 0;
-    while (i < arr.length) {
+    while (i &lt  arr.length) {
         result = result * arr[i];
         i++;
     }
@@ -249,7 +249,7 @@ findSecondBiggest([19, 9, 11, 0, 12]);</code></pre>
     let result = [];
     if (l > 0) result.push(p1);
     if (l > 1) result.push(p2);
-    for (let i = 2; i < l; i++) {
+    for (let i = 2; i &lt  l; i++) {
         result.push(result[i - 2] + result[i - 1]);
     }
     return result;
@@ -293,8 +293,8 @@ printFibo(10, 0, 1);</code></pre>
                             <label class="form-check-label" for="exampleCheck1">Check me out</label>
                         </div>
                         <input type="button" value="Submit" class="btn btn-primary" onclick=button1() />
+                    </fieldset>
                 </form>
-                </fieldset>
             </div>
             <div class="col-8">
                 <fieldset>
@@ -344,6 +344,7 @@ printFibo(10, 0, 1);</code></pre>
                         <div class="footer-button">
                             <input type="button" value="Submit" class="btn btn-outline-info" onclick="button2()" />
                         </div>
+                    </form>
                 </fieldset>
             </div>
         </div>
