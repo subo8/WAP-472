@@ -65,9 +65,12 @@ legend {
 }
 
 .validator {
-    float: right;
-    margin-top: 40px;
-    padding-right: 0.7%;
+    position: fixed;
+    /* display: flex; */
+    flex-flow: column;
+    bottom: 0;
+    right: 0;
+    opacity: 0.5;
 }
 
 .validator a {
