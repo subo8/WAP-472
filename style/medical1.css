@@ -1,0 +1,89 @@
+.navbar {
+    background-color: orangered;
+    font-weight: 200;
+}
+
+.navbar-brand {
+    color:white;
+    margin-left: 10px;
+    margin-right: 50px;;
+}
+
+
+.navbar a:hover {
+    color: black;
+}
+
+.nav-item.nav-link.inactive {
+    color: gray;
+}
+
+.nav-item.nav-link.inactive:hover {
+    color: black;
+}
+
+.nav-item.nav-link.alast {
+    margin-left:30px; 
+    border-left: 1px solid white; 
+    padding-left: 30px;
+}
+
+.navbar-nav a{
+    color: white;
+    margin-left: 30px;
+}
+
+.navbar-nav {
+    border-left: 1px solid white;
+}
+.container h3 {
+    margin-top: 20px;
+    font-weight: 200;
+}
+
+.below {
+    color: darkgrey;
+    font-size: 8pt;
+}
+
+.buttonBlock  {
+    margin-top: 20px;
+    float: right;
+}
+.welcomQuest {
+    margin-right: 20px; color: white;
+}
+
+.register {
+    background-color: orangered;
+    border-color: orangered;
+    margin-left: 10px;
+    font-weight: 200;
+    width: 280px;
+}
+
+.res {
+    background-color: grey;
+    border-color: grey;
+    font-weight: 200;
+    width: 180px;
+}
+
+.bottom {
+    margin-top: 20px;
+    background-color: gainsboro;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.bottom span {
+    float: right;
+}
+
+.checkboxes .form-check-label {
+    margin-right: 50px;
+}
+
+.validatorBar a {
+    float: right;
+    text-decoration: none;
+}

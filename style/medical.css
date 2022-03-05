@@ -1,0 +1,85 @@
+.navbar {
+    background-color: orangered;
+    font-weight: 200;
+}
+
+.navbar-brand {
+    color:white;
+    margin-left: 10px;
+    margin-right: 50px;;
+}
+
+.navbar a:hover {
+    color: black;
+}
+
+.navbar-nav a{
+    color: white;
+    margin-left: 30px;
+}
+
+.nav-item.nav-link.inactive {
+    color: gray;
+}
+
+.nav-item.nav-link.inactive:hover {
+    color: black;
+}
+
+.nav-item.nav-link.alast {
+    margin-left:30px; 
+    border-left: 1px solid white; 
+    padding-left: 30px;
+}
+
+.welcomeGuestText {
+    margin-right: 20px; color: white;
+}
+
+.navbar-nav {
+    border-left: 1px solid white;
+}
+
+.container {
+    height: 550px;
+}
+
+.container h3 {
+    margin-top: 20px;
+}
+.container h7 {
+    font-style: italic;
+}
+.container img {
+    height: 150px;
+    width: 100%;
+    background-image: url("../images/holy.jpg");
+}
+.container h5 {
+    margin-top: 10px;
+    font-weight: 300;
+}
+.contact > p {
+    margin: 0;
+}
+
+.contact u {
+    color: rgb(29, 74, 197);
+}
+
+.contact span {
+    color: orangered;
+}
+
+.bottom {
+    background-color: gainsboro;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.bottom span {
+    float: right;
+}
+.validatorBar a {
+    float: right;
+    text-decoration: none;
+}
