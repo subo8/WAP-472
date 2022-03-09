@@ -1,5 +1,4 @@
 .navbar {
-    background-color: orangered;
     font-weight: 200;
 }
 
@@ -52,7 +51,7 @@
 }
 .container img {
     height: 150px;
-    width: 100%;
+    background-repeat: x;
     /* background-image: url("../images/holy.jpg"); */
 }
 .container h5 {
