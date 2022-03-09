@@ -28,7 +28,7 @@
             padding: 10px;
         }
 
-        .container pre code p {
+        .container pre code span {
             background-color: aquamarine;
             /* padding-left: 50pt; */
         }
@@ -68,18 +68,17 @@
     let counter = 0;
     function add() {
         counter += 1;
-        console.log("Increasing counter: " + counter); <p id="prob61">sdf</p>
+        console.log("Increasing counter: " + counter); <span id="prob61"></span>
     }
     function reset() {
         counter = 0;
-        console.log("Resetting counter: " + counter); <p id="prob62"></p>
+        console.log("Resetting counter: " + counter); <span id="prob62"></span>
     }
     add();
     reset();
     return counter;
 })
-console.log("In the end counter value is: " + count());
-<p id="prob63"></p></code></pre>
+console.log("In the end counter value is: " + count());<span id="prob63"></span></code></pre>
             <p>Solution 2</p>
             <pre><code>let count1 = {
     counter: 0,
@@ -92,11 +91,9 @@ console.log("In the end counter value is: " + count());
 }
         
 count1.add();
-console.log(count1.counter);
-<p id="prob62_1"></p>
+console.log(count1.counter);<span id="prob62_1"></span>
 count1.reset();
-console.log(count1.counter);
-<p id="prob62_2"></p></code></pre>
+console.log(count1.counter);<span id="prob62_2"></span></code></pre>
             <p>Solution 3</p>
             <pre><code>const count2 = {
     counter: 0,
@@ -111,8 +108,8 @@ console.log(count1.counter);
         console.log(this.counter);
     }
 }
-count2.add();<p id="prob63_1"></p>
-count2.reset();<p id="prob63_2"></p></code></pre>
+count2.add();<span id="prob63_1"></span>
+count2.reset();<span id="prob63_2"></span></code></pre>
         </fieldset>
         <hr>
         <fieldset>
@@ -140,9 +137,9 @@ add5(); add5(); add5(); //final counter is 15
     }
 };
 var add5 = make_adder(5);
-add5();<p id="prob8_1"></p>
-add5();<p id="prob8_2"></p>
-add5();<p id="prob8_3"></p></code></pre>
+add5();<span id="prob8_1"></span>
+add5();<span id="prob8_2"></span>
+add5();<span id="prob8_3"></span></code></pre>
         </fieldset>
         <hr>
         <fieldset>
@@ -216,8 +213,8 @@ Employee.publicSetName("Byambadorj");
 Employee.publicSetSalary(100000.00);
 Employee.publicSetAge(30);
             
-console.log(Employee.publicIncreaseSalary(30));<p id="prob10_1"></p>
-console.log(Employee.publicIncreaseAge(5));<p id="prob10_2"></p></code></pre>
+console.log(Employee.publicIncreaseSalary(30));<span id="prob10_1"></span>
+console.log(Employee.publicIncreaseAge(5));<span id="prob10_2"></span></code></pre>
         </fieldset>
         <hr>
         <fieldset>
@@ -243,7 +240,7 @@ console.log(Employee.publicIncreaseAge(5));<p id="prob10_2"></p></code></pre>
 }();
             
 Employee.address.publicSetAddress("106 S D St, FairField 52556");
-console.log(Employee.address.publicGetAddress());<p id="prob11_1"></p></code></pre>
+console.log(Employee.address.publicGetAddress());<span id="prob11_1"></span></code></pre>
         </fieldset>
         <div class=" validator">
             <a href="http://validator.w3.org/check?uri=referer"
