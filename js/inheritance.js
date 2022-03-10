@@ -1,3 +1,8 @@
+/** You can check github page following url
+ * 
+ * https://subo8.github.io/
+ */
+
 "use strict";
 
 const person = {
